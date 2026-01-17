@@ -1,6 +1,6 @@
 # Crawly 🕷️
 
-**A visual asset discovery platform that crawls websites and extracts every image.**
+**Need to extract every image from a website without paying $99/month? Same. So I built this.**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://crawly-production.up.railway.app)
 [![GitHub](https://img.shields.io/badge/github-repo-blue)](https://github.com/devakmmm/crawly)
@@ -37,13 +37,13 @@ So I built my own.
 
 ## Technical Highlights
 
-| Challenge | Solution |
-|-----------|----------|
-| Infinite loops from circular links | URL normalization + visited tracking |
-| Getting IP banned | Built-in rate limiting (500ms delays) |
-| Memory leaks | Thread-safe concurrent collections |
-| Race conditions | ExecutorService with proper synchronization |
-| Duplicate pages | URL deduplication before queuing |
+| Challenge                          | Solution                                    |
+| ---------------------------------- | ------------------------------------------- |
+| Infinite loops from circular links | URL normalization + visited tracking        |
+| Getting IP banned                  | Built-in rate limiting (500ms delays)       |
+| Memory leaks                       | Thread-safe concurrent collections          |
+| Race conditions                    | ExecutorService with proper synchronization |
+| Duplicate pages                    | URL deduplication before queuing            |
 
 ---
 
